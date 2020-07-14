@@ -1,0 +1,7 @@
+{
+  "env": {
+    "production": {
+      "baseUrl": "https://limehome-qa-task.herokuapp.com"
+    }
+  }
+}

@@ -1,0 +1,56 @@
+
+############################ Example of test scenario ##############################
+#1 - Retrieve booking with correct data--------------------------------------------|
+                                                                                   |
+    Steps:                                                                         |
+    1. Go to https://limehome-qa-task.herokuapp.com/                               |
+    2. Fill the "Last name" field with "Test" value                                |
+    3. Fill the "Booking Reference" field with "12345qwert" value                  |
+    4. Click on the "Submit" button                                                |
+    5. Fill all required fields                                                    |
+    6. Click on the "Submit" button => The "Complete" form should be displayed     |
+                                                                                   |
+-----------------------------------------------------------------------------------|
+
+
+#################################### Checklist ######################################
+
+#2 - Change language on "Retrieve your booking" form
+#3 - Submit "Retrieve your booking" form without filling required fields
+#4 - Fill only the "Last name" field
+#5 - Fill only the "Booking Reference" field
+#6 - Fill the "Last name" field with less than 2 symbols
+#7 - Fill the "Booking Reference" field with less than 6 symbols
+#8 - Fill the "Last name" field with spaces
+#9 - Fill the "Booking Reference" field with spaces
+#10 - Fill the "Last name" field with digits
+#11 - Fill all required fields on the "Booking details" page
+#12 - Empty the "First name" field on the "Booking details" page
+#13 - Fill the "First name" field with less than 2 symbols
+#14 - Fill the "First name" field with spaces
+#15 - Fill the "First name" field with digits
+#16 - Empty the "Last name" field on the "Booking details" page
+#17 - Fill the "Last name" field with less than 2 symbols
+#18 - Fill the "Last name" field with spaces
+#19 - Fill the "Last name" field with digits
+#20 - Empty the "Birthdate" field on the "Booking details" page
+#21 - Fill the "Birthdate" field with letters
+#22 - Fill the "Birthdate" field with spaces
+#23 - Fill the "Birthdate" field with different date formats
+#24 - Fill the "Birthdate" field with incorrect day
+#25 - Fill the "Birthdate" field with incorrect month
+#26 - Fill the "Birthdate" field with future year
+#27 - Fill the "Birthdate" field via calendrar
+#28 - Fill the "Birthdate" field with future date via calendrar
+#29 - Empty the "Street adress" field on the "Booking details" page
+#30 - Fill the "Street adress" field with spaces on the "Booking details" page
+#31 - Empty the "Postal code" field on the "Booking details" page
+#32 - Fill the "Postal code" field only with letters on the "Booking details" page
+#33 - Fill the "Postal code" field with more than 15 symbols
+#34 - Empty the "City" field on the "Booking details" page
+#35 - Fill the "City" field with digits on the "Booking details" page
+#36 - Fill the "City" field with spaces on the "Booking details" page
+#37 - Fill the "Country" field with different countries
+#38 - Fill the "Nationality" field with different countries
+#39 - Fill the "Type of stay" field with "Business" value
+#40 - Fill the "Type of stay" field with "Leisure" value

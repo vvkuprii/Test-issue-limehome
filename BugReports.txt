@@ -1,0 +1,39 @@
+################################# Bug report #1 ##################################################
+                                                                                                 #
+Summary: User is able to fill the "Last name" field with spaces                                  #
+Priority: Minor                                                                                  #
+                                                                                                 #
+Steps to reproduce:                                                                              #
+1. Go to https://limehome-qa-task.herokuapp.com/                                                 #
+2. Fill the "Last name" field with spaces                                                        #
+3. Fill the "Booking reference" field with "test1234" value                                      #
+4. Click on the "Submit" button                                                                  #
+5. Fill all required fields                                                                      #
+6. Click on the "Submit" button                                                                  #
+7. Observe the "Complete" page                                                                   #
+                                                                                                 #
+Actual state: User is able to fill the "Last name" field with spaces.                            #
+Expected state: User should be able to fill the "Last name" field only with letters.             #
+Notes: Same for "Booking reference", "First name", "Street adress", "Postl code", "City" fields  #
+                                                                                                 #
+                                                                                                 #
+################################# Bug report #2 ##################################################
+                                                                                                 #
+Summary: User is able to set future date in "Birthday" field                                     #
+Priority: Minor                                                                                  #
+                                                                                                 #
+Steps to reproduce:                                                                              #
+1. Go to https://limehome-qa-task.herokuapp.com/                                                 #
+2. Fill the "Last name" field with the "Test" value                                              #
+3. Fill the "Booking reference" field with "test1234" value                                      #
+4. Click on the "Submit" button                                                                  #
+5. Fill the "Birthday" field with "01/01/2021" value                                             #
+6. Fill the "Type of stay" field with "Business" value                                           #
+7. Click on the "Submit" button                                                                  #
+8. Observe the "Complete" page                                                                   #
+                                                                                                 #
+Actual state: User is able to set future date in "Birthday" field.                               #
+Expected state: User should not be able to set future date in "Birthday" field.                  #
+                                                                                                 #
+                                                                                                 #
+##################################################################################################
